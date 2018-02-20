@@ -1,0 +1,82 @@
+/* --------------------------------------------------
+  Global settings
+-----------------------------------------------------*/
+body {
+	font: 110% 'Roboto Slab', Georgia, serif;
+	background: white;
+	direction: ltr;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-weight: 700;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+	margin: 0 0 1em 0;
+}
+a {
+	color: #42659A;
+	line-height: inherit;
+}
+a:hover {
+	color: #213149;
+}
+img, object, embed {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 1em auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+	clear: right;
+}
+.cl {
+	clear: left;
+}
+.cb {
+	clear: both;
+}
+
+article header {
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #aaa;
+}
+
+article footer {
+	background: none;
+	border-top: 1px solid #aaa;
+	font-size: 0.8em;
+	padding: 1em 0;
+}
+
+article p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
